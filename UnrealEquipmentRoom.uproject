@@ -1,0 +1,13 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.6",
+  "Category": "Simulation",
+  "Description": "Interactive data centre rack installation greybox",
+  "Modules": [
+    {
+      "Name": "UnrealEquipmentRoom",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}
