@@ -2,6 +2,10 @@
 
 **Project 3 of a three-project 3D portfolio.** A first-person Unreal Engine greybox for inspecting a data centre equipment installation. The C++ game mode builds a lit room, cabinet, rails, staging pedestal, equipment module, and an industrial control panel from Unreal's built-in meshes at runtime.
 
+## CP-04 control panel integration
+
+Adekunle Olowu integrated the CP-04 control panel into his Unreal Equipment Room working project. The [IndustrialControlPanel repository](https://github.com/Adedaved/IndustrialControlPanel) contains the editable Blender source, textures, renders, and tested GLB export. The public checkout here runs the built-in greybox panel. The imported Unreal asset and scene changes have yet to be published.
+
 ## Open and play
 
 1. Clone this repo and install Unreal Engine 5.6 with the C++ toolchain required by Unreal for your OS.
@@ -15,11 +19,11 @@ The demo uses keyboard controls. The greybox panel is a visual prop. Room and ca
 
 | Project | Deliverable |
 | --- | --- |
-| 1. Industrial Control Panel | Standalone Blender hard-surface asset with editable source, UVs, a high-to-low bake, 4K metal-rough textures, and a turntable. |
+| 1. [Industrial Control Panel](https://github.com/Adedaved/IndustrialControlPanel) | CP-04 hard-surface asset with editable Blender source, UV diagrams, 4K enclosure textures, renders, and a tested GLB export. |
 | 2. 3D Data Centre Rack Installation and Maintenance Demonstrator | Standalone Blender project inspired by hands-on IT experience. An animated equipment installation and removal sequence demonstrates rail alignment, clearances, and serviceable moving parts. |
-| 3. Unreal Equipment Room | Interactive scene that will integrate the companion assets and showcase lighting, collisions, controls, and real-time verification. |
+| 3. Unreal Equipment Room | Interactive Unreal greybox for lighting, collisions, controls, and real-time verification. |
 
-The Blender source repos, imported meshes, and authored installation animation are pending.
+The rack demonstrator source and authored installation animation are pending.
 
 ## Editor verification
 
